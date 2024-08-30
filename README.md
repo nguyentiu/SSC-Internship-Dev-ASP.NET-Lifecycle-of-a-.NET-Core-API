@@ -1,7 +1,7 @@
 # SSC-Internship-Dev-ASP.NET-Lifecycle-of-a-.NET-Core-API
 # Hướng Dẫn Về Lifecycle của một .NET Core API
 ## Giới Thiệu
-Khi phát triển một ứng dụng web hoặc API với ASP.NET Core, hiểu rõ về vòng đời của một API là điều quan trọng để có thể tối ưu hóa, xử lý lỗi, và quản lý tài nguyên hiệu quả. Mỗi yêu cầu (request) gửi đến API của bạn đều trải qua nhiều bước từ khi khởi tạo cho đến khi phản hồi được trả về. Bài viết này sẽ giải thích chi tiết về các giai đoạn chính trong vòng đời của một .NET Core API và cung cấp ví dụ cụ thể để bạn có thể hiểu rõ cách ứng dụng hoạt động.
+Khi phát triển một ứng dụng web hoặc API với ASP.NET Core, hiểu rõ về vòng đời của một API là điều quan trọng để có thể tối ưu hóa, xử lý lỗi, và quản lý tài nguyên hiệu quả. Mỗi yêu cầu (request) gửi đến API của bạn đều trải qua nhiều bước từ khi khởi tạo cho đến khi phản hồi được trả về.
 
 Tổng Quan Về Vòng Đời của .NET Core API
 
